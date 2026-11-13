@@ -1,6 +1,7 @@
 import { createLayers } from './layers.js';
 
-const data = await (await fetch('data/lictor.json')).json();
+const HERE = new URL('.', import.meta.url);
+const data = await (await fetch(new URL('data/lictor.json', HERE))).json();
 
 // ---------------------------------------------------------------- layers
 let viewer = null;
@@ -15,7 +16,7 @@ const compare = document.querySelector('[data-compare]'), picture = document.que
 compare.addEventListener('click', e => {
   const b = e.target.closest('button'); if (!b) return;
   compare.querySelectorAll('button').forEach(o => o.setAttribute('aria-selected', o === b));
-  picture.src = `img/${b.dataset.img}.svg`;
+  picture.src = new URL(`img/${b.dataset.img}.svg`, HERE).href;
   picture.alt = b.dataset.img === 'layout' ? 'The Lictor\'s key layout, both halves' : `The Lictor's left half drawn over the ${b.textContent}`;
 });
 

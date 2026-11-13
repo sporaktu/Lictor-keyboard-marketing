@@ -217,7 +217,7 @@ export function createViewer(canvas, data, onChange) {
     pending++; status();
     const holder = new THREE.Group(); holder.visible = false; group.add(holder);
     h.loaded[key] = holder;
-    loader.load(`models/${side}/${file}.glb`, gltf => {
+    loader.load(new URL(`models/${side}/${file}.glb`, import.meta.url).href, gltf => {
       const model = gltf.scene;
       if (kind === 'kicad') {       // metres, origin at the page corner, board from 0 up
         model.scale.setScalar(1000); model.position.set(-150, C.board_bottom, -100);
@@ -294,18 +294,20 @@ export function createViewer(canvas, data, onChange) {
   let flight = null;
   const ACROSS = new THREE.Vector3(1, 0, 0);
   function fly() {                  // turn the view over: swing the camera half way round, past the front edge
-    flight = { from: camera.position.clone().sub(controls.target), t: 0 };
+    // Asked again part way round, it turns back the way it came.
+    if (flight) { flight.step = -flight.step; return; }
+    flight = { from: camera.position.clone().sub(controls.target), t: 0, step: 0.03 };
   }
 
   function frame() {
     requestAnimationFrame(frame);
     let moving = controls.update();
     if (flight) {
-      flight.t = Math.min(1, flight.t + 0.03);
+      flight.t = Math.min(1, Math.max(0, flight.t + flight.step));
       const e = flight.t * flight.t * (3 - 2 * flight.t);
       const v = flight.from.clone().applyAxisAngle(ACROSS, Math.sign(flight.from.z || 1) * Math.sign(flight.from.y || 1) * e * Math.PI);
       camera.position.copy(controls.target).add(v); camera.lookAt(controls.target);
-      if (flight.t >= 1) flight = null;
+      if (flight.t >= 1 || flight.t <= 0) flight = null;
       moving = true;
     }
     if (Math.abs(explodeNow - state.explode) > 0.001) {

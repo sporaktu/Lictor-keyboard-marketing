@@ -1,0 +1,33 @@
+{
+  "status": "Campaign coming soon",
+  "button": {
+    "label": "Back this project",
+    "url": ""
+  },
+  "tiers": [
+    {
+      "name": "The boards",
+      "price": "",
+      "summary": "Both halves, with every part soldered.",
+      "includes": ["Left and right boards, factory assembled", "Firmware loaded", "Bring your own switches, keycaps, batteries and case"]
+    },
+    {
+      "name": "The kit",
+      "price": "",
+      "summary": "The boards and a case to put them in.",
+      "includes": ["Left and right boards, factory assembled", "A plastic tray and cover for each half", "Screws", "Bring your own switches, keycaps and batteries"]
+    },
+    {
+      "name": "The keyboard",
+      "price": "",
+      "summary": "Put together and ready for your desk.",
+      "includes": ["Both halves in plastic cases", "Switches and keycaps fitted", "Key lights and a screen on each half"]
+    },
+    {
+      "name": "The keyboard in aluminium",
+      "price": "",
+      "summary": "The same keyboard in machined metal.",
+      "includes": ["Both halves in machined aluminium trays", "Switches and keycaps fitted", "Key lights and a screen on each half"]
+    }
+  ]
+}

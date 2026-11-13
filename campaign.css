@@ -1,0 +1,113 @@
+/* The campaign page. It keeps the build page's typeface, black and gold, and
+   turns the page itself black: the board's colour, with the 3D drawing on a
+   lit slate stage in the middle. Loaded after style.css. */
+
+.campaign { background: var(--board); color: #e9ebec; }
+.campaign a:hover { color: var(--gold-bright); }
+.campaign a { text-decoration-color: var(--gold-bright); }
+.campaign :focus-visible { outline-color: var(--gold-bright); }
+.campaign h2 svg { color: var(--gold-bright); }
+.campaign .small { color: #a2a8ad; }
+
+/* ------------------------------------------------------------ top bar */
+.campaign .top { background: color-mix(in srgb, var(--board) 86%, transparent); border-bottom-color: #25282b; }
+.campaign .mark svg, .campaign .mark .maker { color: var(--gold-bright); }
+.campaign .top nav { align-items: center; }
+
+.back {
+  display: inline-block; padding: 0.5rem 1rem; white-space: nowrap;
+  background: var(--gold-bright); color: var(--board); text-decoration: none;
+  font-weight: 750; font-stretch: 112%;
+}
+.campaign a.back:hover { background: #fff; color: var(--board); }
+.campaign .top nav a.back { padding: 0.4rem 0.8rem; }
+.campaign .top nav a.back:hover { text-decoration: none; }
+.back.big { display: block; text-align: center; padding: 0.95rem 1rem; font-size: 1.2rem; }
+
+/* ------------------------------------------------------------ the pitch */
+.pitch { padding-top: clamp(1.5rem, 4vw, 3rem); padding-bottom: clamp(2.5rem, 6vw, 5rem); }
+.pitch-words { display: grid; grid-template-columns: minmax(0, auto) minmax(0, 1fr); align-items: end; column-gap: clamp(1.5rem, 4vw, 4rem); margin-bottom: clamp(1.5rem, 3vw, 2.5rem); }
+.campaign h1 { color: #fff; grid-row: auto; }
+.campaign h1 .maker { color: var(--gold-bright); }
+.campaign .lede { font-size: clamp(1.25rem, 2vw, 1.6rem); max-width: 28rem; margin-bottom: 0.2rem; color: #e9ebec; }
+
+.pitch-main { display: grid; grid-template-columns: minmax(0, 1fr) minmax(16rem, 22rem); gap: clamp(1rem, 2.5vw, 2rem); align-items: stretch; }
+.film { margin: 0; overflow: hidden; background: #b9b2aa; }
+.film img { width: 100%; height: 100%; object-fit: cover; aspect-ratio: 16 / 9; }
+
+.pledge { display: flex; flex-direction: column; gap: 1.2rem; border-top: 4px solid var(--gold-bright); padding-top: 1rem; }
+.pledge-status { margin: 0; font-weight: 750; font-stretch: 112%; color: var(--gold-bright); }
+.count { margin: 0; display: grid; gap: 1rem; flex: 1; align-content: start; }
+.count div { display: grid; }
+.count dt { font-size: clamp(2.6rem, 4.5vw, 3.6rem); font-weight: 850; font-stretch: 125%; line-height: 0.95; color: #fff; }
+.count dd { margin: 0.2rem 0 0; color: #a2a8ad; }
+.pledge-note { margin: 0; font-size: 0.875rem; color: #a2a8ad; }
+
+/* ------------------------------------------------------------ the story */
+.story { background: var(--slate); color: var(--ink); padding-bottom: 0; }
+.story h2 svg { color: var(--gold); }
+.reel { display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr); gap: clamp(1.5rem, 4vw, 4rem); align-items: start; }
+.screen { position: sticky; top: 4rem; height: calc(100vh - 5rem); min-height: 22rem; }
+.screen #view { width: 100%; height: 100%; touch-action: pan-y; cursor: grab; }
+.screen .still { margin: 0; height: 100%; display: grid; align-items: center; }
+.screen .loading { color: var(--mute); }
+.beats { list-style: none; margin: 0; padding: 18vh 0 34vh; display: grid; gap: 46vh; }
+.beats li { border-left: 3px solid var(--slate-deep); padding: 0.2rem 0 0.2rem 1.2rem; opacity: 0.38; transition: opacity 0.25s, border-color 0.25s; cursor: pointer; }
+.beats li.now { opacity: 1; border-left-color: var(--gold); }
+.beats h3 { font-size: clamp(1.5rem, 2.6vw, 2.1rem); font-weight: 800; font-stretch: 125%; letter-spacing: -0.015em; line-height: 1.05; margin-bottom: 0.5rem; }
+.beats p { margin: 0; font-size: 1.125rem; max-width: 26rem; }
+
+/* ------------------------------------------------------------ uses */
+.uses .facts > div { border-top-color: var(--gold-bright); }
+.uses h3 { color: #fff; }
+.uses p { color: #c9cdd0; }
+
+/* ------------------------------------------------------------ rewards */
+.rewards { background: #131517; }
+.tiers { list-style: none; margin: 0 0 1.5rem; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: 1rem; }
+.tiers > li { background: var(--board); border-top: 4px solid var(--gold-bright); padding: 1.3rem 1.3rem 1.5rem; display: flex; flex-direction: column; gap: 0.7rem; }
+.tiers h3 { font-size: 1.4rem; font-weight: 800; font-stretch: 125%; color: #fff; margin: 0; }
+.tiers .price { margin: 0; font-size: 1.6rem; font-weight: 800; font-stretch: 112%; color: var(--gold-bright); }
+.tiers .price.unset { font-size: 1rem; font-weight: 650; }
+.tiers p { margin: 0; }
+.tiers ul { margin: 0; padding: 0.8rem 0 0 1.1rem; border-top: 1px solid #2b2f33; color: #c9cdd0; flex: 1; }
+.tiers ul li { margin-bottom: 0.35rem; }
+.tiers ul li::marker { color: var(--gold-bright); }
+
+/* ------------------------------------------------------------ specs and questions */
+.specs table { width: 100%; max-width: 60rem; border-collapse: collapse; }
+.specs th { width: 9rem; color: #fff; font-weight: 700; font-stretch: 112%; font-size: 1.0625rem; }
+.specs th, .specs td { border-bottom-color: #2b2f33; padding: 0.8rem 1rem 0.8rem 0; }
+.specs td { color: #c9cdd0; }
+
+.faq { background: #131517; }
+.answers { max-width: 46rem; border-top: 1px solid #2b2f33; }
+.answers details { border-bottom: 1px solid #2b2f33; }
+.answers summary { cursor: pointer; padding: 1rem 0; font-size: 1.2rem; font-weight: 700; font-stretch: 112%; color: #fff; list-style-position: outside; }
+.answers summary:hover { color: var(--gold-bright); }
+.answers summary::marker { color: var(--gold-bright); }
+.answers details p { color: #c9cdd0; max-width: 38rem; }
+
+.campaign footer { border-top: 1px solid #25282b; }
+
+/* ------------------------------------------------------------ narrower screens */
+@media (max-width: 56rem) {
+  .pitch-words { grid-template-columns: minmax(0, 1fr); }
+  .campaign h1 { margin-bottom: 1.2rem; }
+  .pitch-main { grid-template-columns: minmax(0, 1fr); }
+  .count { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .count dd { font-size: 0.875rem; }
+  .campaign .top nav a:not(.back) { display: none; }
+  .campaign .top nav { flex: none; overflow: visible; }
+  .campaign .top nav a.back { display: inline-block; }
+  .screen .drag-hint { left: var(--gutter); bottom: 0.3rem; }
+
+  /* The drawing stays at the top of the window and the story passes beneath it. */
+  .reel { grid-template-columns: minmax(0, 1fr); gap: 0; }
+  .screen { top: 2.8rem; height: 44vh; min-height: 15rem; z-index: 2; background: var(--slate); border-bottom: 1px solid var(--slate-deep); margin: 0 calc(-1 * var(--gutter)); }
+  .beats { padding: 12vh 0 30vh; gap: 34vh; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .beats li { transition: none; }
+}

@@ -3,19 +3,20 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Lictor by Sporaktu: a split, wireless, 40-key keyboard</title>
-<meta name="description" content="Lictor by Sporaktu is an open design for a split, wireless, 40-key MX keyboard. The board factory solders the electronics. Turn it over, take it apart and try its layers here.">
+<title>Lictor by Sporaktu: the split wireless keyboard that arrives soldered</title>
+<meta name="description" content="Lictor by Sporaktu is a split, wireless keyboard with forty MX keys, hot-swap sockets, key lights, knobs and a case in plastic or aluminium. Nothing to solder.">
 <meta property="og:site_name" content="Lictor by Sporaktu">
-<meta property="og:title" content="Lictor by Sporaktu: a split, wireless, 40-key keyboard">
+<meta property="og:title" content="Lictor by Sporaktu: the split wireless keyboard that arrives soldered">
 <meta property="og:type" content="website">
 <link rel="icon" href="img/logo-left.svg" type="image/svg+xml">
 <link rel="preload" href="vendor/archivo/archivo-latin-standard-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="campaign.css">
 <script type="importmap">
 {"imports": {"three": "./vendor/three/three.module.min.js", "three/addons/": "./vendor/three/addons/"}}
 </script>
 </head>
-<body>
+<body class="campaign">
 
 <header class="top">
   <a class="mark" href="#top" aria-label="Lictor by Sporaktu, top of the page">
@@ -23,11 +24,11 @@
     <span>Lictor <span class="maker">by Sporaktu</span></span>
   </a>
   <nav aria-label="Sections">
-    <a href="#features">Features</a>
-    <a href="#layout">Layout</a>
-    <a href="#layers">Layers</a>
-    <a href="#customise">Customise</a>
-    <a href="#case">Case</a>
+    <a href="#story">The keyboard</a>
+    <a href="#rewards">Rewards</a>
+    <a href="#specs">Specs</a>
+    <a href="#faq">Questions</a>
+    <a class="back" data-back href="#rewards">Back this project</a>
   </nav>
 </header>
 
@@ -44,209 +45,123 @@
 
 <main id="top">
 
-<section class="hero" aria-labelledby="title">
-  <div class="hero-words">
+<section class="pitch" aria-labelledby="title">
+  <div class="pitch-words">
     <h1 id="title">Lictor <span class="maker">by Sporaktu</span></h1>
-    <p class="lede">Sporaktu's split, wireless keyboard with forty MX keys. The radio and every other chip are on the main boards, and the board factory solders them.</p>
+    <p class="lede">A split, wireless keyboard with forty MX keys that arrives soldered. Push in your switches and type.</p>
   </div>
+  <div class="pitch-main">
+    <figure class="film">
+      <img src="img/concept-case.jpg" alt="Both halves of the Lictor in their cases, with keycaps, a knob and a screen on each" width="2000" height="1125">
+    </figure>
+    <aside class="pledge" aria-label="The campaign">
+      <p class="pledge-status" data-status>Campaign coming soon</p>
+      <dl class="count">
+        <div><dt>40</dt><dd>MX keys, hot-swap</dd></div>
+        <div><dt>2</dt><dd>halves, no cable between them</dd></div>
+        <div><dt>0</dt><dd>parts to solder</dd></div>
+      </dl>
+      <a class="back big" data-back href="#rewards">Back this project</a>
+      <p class="pledge-note" data-back-note>The campaign is not open yet. The rewards are below.</p>
+    </aside>
+  </div>
+</section>
 
-  <div class="stage">
-    <div class="view">
-      <canvas id="view" aria-label="A 3D drawing of both halves of the Lictor. Drag to turn it; the two buttons zoom."></canvas>
+<section id="story" class="story" aria-labelledby="h-story">
+  <h2 id="h-story"><svg viewBox="0 0 30 15" aria-hidden="true"><use href="#bars"/></svg>From bare board to your desk</h2>
+  <div class="reel">
+    <div class="screen">
+      <canvas id="view" aria-label="A 3D drawing of both halves of the Lictor. It changes as you read on; drag to turn it."></canvas>
       <p class="loading" data-loading role="status">Loading the drawing</p>
       <figure class="still" data-still hidden>
         <img src="img/concept-case.jpg" alt="Both halves in a case with keycaps, knobs and screens" width="2000" height="1125">
-        <figcaption>This browser cannot show the 3D drawing, so here is a still picture.</figcaption>
       </figure>
       <p class="drag-hint">Drag to turn it.</p>
-      <div class="zoom" data-zoom>
-        <button type="button" data-factor="0.8" aria-label="Zoom in">+</button>
-        <button type="button" data-factor="1.25" aria-label="Zoom out">&minus;</button>
-      </div>
     </div>
-
-    <form class="build" aria-label="What the drawing shows" onsubmit="return false">
-      <ol class="steps" data-steps aria-label="Build stage"></ol>
-      <p class="step-note" data-step-note aria-live="polite"></p>
-
-      <fieldset>
-        <legend>Key lights</legend>
-        <label><input type="radio" name="lights" value="1" checked><span>Fitted</span></label>
-        <label><input type="radio" name="lights" value="0"><span>None</span></label>
-        <label class="check"><input type="checkbox" name="lit"><span>Switch them on</span></label>
-      </fieldset>
-      <fieldset>
-        <legend>Screen</legend>
-        <label><input type="radio" name="screen" value="1" checked><span>nice!view</span></label>
-        <label><input type="radio" name="screen" value="0"><span>None</span></label>
-      </fieldset>
-      <fieldset>
-        <legend>Two inner keys</legend>
-        <label><input type="radio" name="inner" value="switch" checked><span>Switches</span></label>
-        <label><input type="radio" name="inner" value="knob"><span>Knobs</span></label>
-      </fieldset>
-      <fieldset>
-        <legend>Tray</legend>
-        <label><input type="radio" name="tray" value="plastic" checked><span>Plastic</span></label>
-        <label><input type="radio" name="tray" value="metal"><span>Metal</span></label>
-      </fieldset>
-      <fieldset>
-        <legend>Layer light</legend>
-        <select name="layer" aria-label="Layer the layer light shows"></select>
-      </fieldset>
-      <div class="actions">
-        <label class="slide"><span>Pull apart</span><input type="range" name="explode" min="0" max="1" step="0.01" value="0"></label>
-        <button type="button" data-under aria-pressed="false">Show the underside</button>
-      </div>
-    </form>
+    <ol class="beats" data-beats>
+      <li data-view='{"stage":1,"under":false,"explode":0}' data-options='{"lit":false}'>
+        <h3>Two boards, black and gold</h3>
+        <p>Each half is one circuit board. The figure with the three bars is printed on both faces, and the pads are gold.</p>
+      </li>
+      <li data-view='{"stage":2,"under":true,"explode":0}' data-options='{"lit":false}'>
+        <h3>Soldered before it reaches you</h3>
+        <p>The radio, the charger, the USB-C socket, forty switch sockets and the lights are all fitted to the underside by the board factory. There is no controller board to buy and nothing to solder.</p>
+      </li>
+      <li data-view='{"stage":3,"under":false,"explode":0}' data-options='{"lit":false,"inner":"switch"}'>
+        <h3>Any MX switch pushes in</h3>
+        <p>Every key has a hot-swap socket. Choose the switches you like, push them in, and pull them out again when you change your mind.</p>
+      </li>
+      <li data-view='{"stage":4,"under":false,"explode":0}' data-options='{"lit":false,"inner":"switch"}'>
+        <h3>Forty keys, placed for the hand</h3>
+        <p>Each column is turned and stepped to follow the finger that uses it, with three keys in a fan under each thumb. Every key is one unit, so any MX keycap set fits.</p>
+      </li>
+      <li data-view='{"stage":4,"under":false,"explode":0}' data-options='{"inner":"switch","lit":true}'>
+        <h3>A light under every key</h3>
+        <p>Order it with an RGB light under each key, or without. A second light on the left half shows which layer you are on, one colour for each.</p>
+      </li>
+      <li data-view='{"stage":4,"under":false,"explode":0}' data-options='{"lit":false,"inner":"knob"}'>
+        <h3>Two keys can be knobs</h3>
+        <p>The inner keys of each half take a rotary knob in place of a switch: volume, scrolling, or stepping through anything you choose.</p>
+      </li>
+      <li data-view='{"stage":5,"under":false,"explode":0}' data-options='{"lit":false,"inner":"switch","screen":true,"tray":"plastic"}'>
+        <h3>A screen on each half</h3>
+        <p>A small screen plugs into a socket beside the keys and shows the battery and the connection, and on the left half the layer. The cover has a window for it.</p>
+      </li>
+      <li data-view='{"stage":5,"under":false,"explode":0}' data-options='{"lit":false,"inner":"switch","tray":"metal"}'>
+        <h3>Cased in plastic or aluminium</h3>
+        <p>Each half sits in a tray with the battery beneath the board. The aluminium tray has a plastic corner at the antenna, so the metal does not block the radio.</p>
+      </li>
+      <li data-view='{"stage":5,"under":false,"explode":1}' data-options='{"lit":false,"inner":"switch","tray":"plastic"}'>
+        <h3>Nothing hidden</h3>
+        <p>Tray, board, switches, keycaps, cover. Each half is held together with screws, and every part comes out again.</p>
+      </li>
+    </ol>
   </div>
 </section>
 
-<section id="features" aria-labelledby="h-features">
-  <h2 id="h-features"><svg viewBox="0 0 30 15" aria-hidden="true"><use href="#bars"/></svg>What it is</h2>
+<section id="uses" class="uses" aria-labelledby="h-uses">
+  <h2 id="h-uses"><svg viewBox="0 0 30 15" aria-hidden="true"><use href="#bars"/></svg>Yours to change</h2>
   <div class="facts">
-    <div>
-      <h3>Forty keys, all one size</h3>
-      <p>Each half has a splayed three-by-five field for the fingers, three thumb keys and two extra keys at the inner edge. Every key is one unit wide, so any MX keycap set covers it.</p>
-    </div>
-    <div>
-      <h3>Nothing plugged in, nothing to solder</h3>
-      <p>There is no controller board on pin headers. An nRF52840 radio module is soldered straight to each half, with the charger, sockets and lights, by the factory that makes the board. The builder solders only the optional parts.</p>
-    </div>
-    <div>
-      <h3>No wires</h3>
-      <p>A battery in each half, and no cable between them. The left half talks to the computer over Bluetooth or USB; the right half sends its keys to the left by radio.</p>
-    </div>
-    <div>
-      <h3>Hot-swap switches</h3>
-      <p>Every key has a socket. Switches push in and pull out. There is no switch plate, so use PCB-mount (five-pin) switches: a three-pin switch stands crooked.</p>
-    </div>
-    <div>
-      <h3>Knobs where you want them</h3>
-      <p>Each of the four inner keys takes a switch or an EC12 rotary encoder, chosen when you build. An encoder still clicks as a key.</p>
-    </div>
-    <div>
-      <h3>Lights and a screen, if you want them</h3>
-      <p>A layer light and a status light on each half. Per-key RGB lights are chosen when ordering, and a nice!view screen fits on a socket. The board works without any of them.</p>
-    </div>
-    <div>
-      <h3>USB-C on both halves</h3>
-      <p>For charging and for loading firmware. A slide switch on the back edge turns each half off.</p>
-    </div>
-    <div>
-      <h3>Drawn by scripts</h3>
-      <p>The two-layer boards, the case and the firmware's pin tables all come from one set of Python tables. Change a number and everything that depends on it is redrawn and rechecked.</p>
-    </div>
+    <div><h3>Move keys from a browser</h3><p>The firmware is ZMK with ZMK Studio built in. Unlock the keyboard and rearrange it over USB or Bluetooth, with nothing to install.</p></div>
+    <div><h3>Fifteen layers to start from</h3><p>Letters, navigation, numbers, symbols, function keys, three gaming layers and Mac versions of the base layers. <a href="build/#layers">Try every layer</a>.</p></div>
+    <div><h3>Five devices</h3><p>Pair five computers, tablets or phones and switch between them from the keyboard. Plug in USB-C and it types over the cable.</p></div>
+    <div><h3>Open to builders</h3><p>The design is open for anyone who would sooner make their own. <a href="build/">See how a Lictor is built</a>.</p></div>
   </div>
 </section>
 
-<section id="layout" aria-labelledby="h-layout">
-  <h2 id="h-layout"><svg viewBox="0 0 30 15" aria-hidden="true"><use href="#bars"/></svg>The layout</h2>
-  <div class="split">
-    <div class="prose">
-      <p>The finger keys follow the rae-dux: each column is turned and stepped to follow the finger that uses it. The Lictor re-spaces that geometry from low-profile keys to the MX pitch of 19.05 mm.</p>
-      <p>The thumb keys are the rae-dux's three-key fan, moved half a key outward. The two extra inner keys per half are the Corne v4.1's idea, set level with the home and bottom rows.</p>
-      <p>Pick a board to lay the Lictor's left half over it, with the index finger's home keys lined up.</p>
-      <div class="chips" data-compare role="tablist" aria-label="Board to compare with">
-        <button type="button" role="tab" data-img="layout" aria-selected="true">Lictor alone</button>
-        <button type="button" role="tab" data-img="vs-rae-dux">rae-dux</button>
-        <button type="button" role="tab" data-img="vs-corne">Corne v4.1</button>
-        <button type="button" role="tab" data-img="vs-klor">KLOR</button>
-        <button type="button" role="tab" data-img="vs-ferris-sweep">Ferris Sweep</button>
-        <button type="button" role="tab" data-img="vs-kyria">Kyria</button>
-        <button type="button" role="tab" data-img="vs-sofle">Sofle</button>
-        <button type="button" role="tab" data-img="vs-lily58">Lily58</button>
-        <button type="button" role="tab" data-img="vs-totem">Totem</button>
-      </div>
-    </div>
-    <figure class="paper">
-      <img data-compare-img src="img/layout.svg" alt="The Lictor's key layout, both halves" width="1563" height="771">
-    </figure>
-  </div>
+<section id="rewards" class="rewards" aria-labelledby="h-rewards">
+  <h2 id="h-rewards"><svg viewBox="0 0 30 15" aria-hidden="true"><use href="#bars"/></svg>Rewards</h2>
+  <ul class="tiers" data-tiers></ul>
+  <p class="small" data-tiers-note>Prices will be announced when the campaign opens.</p>
 </section>
 
-<section id="layers" aria-labelledby="h-layers">
-  <h2 id="h-layers"><svg viewBox="0 0 30 15" aria-hidden="true"><use href="#bars"/></svg>Layers</h2>
-  <div class="prose wide">
-    <p>Forty keys reach everything through layers: hold a thumb key and the keys under your fingers change. This is the keymap the firmware ships with, fifteen layers and thirteen combos. Pick a layer, or press a layer key on the drawing to follow it.</p>
-  </div>
-  <div class="layers" data-layers>
-    <div class="tabs" data-tabs role="tablist" aria-label="Layer"></div>
-    <div class="board">
-      <svg role="img" aria-label="The keys on the chosen layer"></svg>
-      <p class="hint" data-hint aria-live="polite"></p>
-    </div>
-    <div class="layer-notes">
-      <p data-about></p>
-      <dl>
-        <dt>The knobs turn</dt><dd data-knob></dd>
-        <dt>Keys pressed together</dt><dd><ul class="combos" data-combos></ul></dd>
-      </dl>
-      <p class="small">A faint legend is a key the layer leaves alone: it does what the layer underneath does. The dot beside each layer's name is the colour the layer light shows on the left half.</p>
-    </div>
-  </div>
+<section id="specs" class="specs" aria-labelledby="h-specs">
+  <h2 id="h-specs"><svg viewBox="0 0 30 15" aria-hidden="true"><use href="#bars"/></svg>Specs</h2>
+  <table>
+    <tbody>
+      <tr><th scope="row">Keys</th><td>40, twenty on each half. MX hot-swap sockets for five-pin switches. All keycaps one unit.</td></tr>
+      <tr><th scope="row">Layout</th><td>Columns turned and stepped for each finger, three thumb keys and two inner keys on each half.</td></tr>
+      <tr><th scope="row">Knobs</th><td>Up to four: a rotary encoder fits at each inner key in place of a switch.</td></tr>
+      <tr><th scope="row">Wireless</th><td>Bluetooth Low Energy, between the halves and to five paired devices.</td></tr>
+      <tr><th scope="row">USB</th><td>USB-C on both halves, for charging and for loading firmware. The left half also types over USB.</td></tr>
+      <tr><th scope="row">Lights</th><td>An RGB light under every key, as an option. A layer light and a status light on each half.</td></tr>
+      <tr><th scope="row">Screen</th><td>A nice!view screen on each half, as an option.</td></tr>
+      <tr><th scope="row">Power</th><td>One single-cell lithium battery in each half, charged over USB-C. A slide switch turns each half off.</td></tr>
+      <tr><th scope="row">Firmware</th><td>ZMK, with ZMK Studio for changing keys from a browser. New firmware loads by dragging a file.</td></tr>
+      <tr><th scope="row">Case</th><td>A tray and cover for each half, in plastic or machined aluminium. The cover is windowed for the screen, or plain.</td></tr>
+    </tbody>
+  </table>
 </section>
 
-<section id="customise" aria-labelledby="h-customise">
-  <h2 id="h-customise"><svg viewBox="0 0 30 15" aria-hidden="true"><use href="#bars"/></svg>Make it yours</h2>
-  <div class="when">
-    <div>
-      <h3>When you order the boards</h3>
-      <ul>
-        <li><strong>Key lights or none.</strong> There are two parts lists per half. One fits an RGB light under every key; the other leaves them off.</li>
-        <li><strong>Assembled or bare.</strong> The files are prepared for JLCPCB to fit the parts. The same files serve for hand assembly, which needs hot air or a hotplate for the radio module.</li>
-      </ul>
-    </div>
-    <div>
-      <h3>When you build</h3>
-      <ul>
-        <li><strong>Switches.</strong> Any five-pin MX switch, in the sockets.</li>
-        <li><strong>Knobs.</strong> An EC12 encoder at any of the four inner keys.</li>
-        <li><strong>A screen.</strong> A nice!view on its socket, on either half or both.</li>
-        <li><strong>A case.</strong> Plastic or metal, printed or machined, with a windowed or a plain cover.</li>
-      </ul>
-    </div>
-    <div>
-      <h3>When you use it</h3>
-      <ul>
-        <li><strong>Change keys from a browser.</strong> The firmware is ZMK with ZMK Studio built in. Press the unlock key on the SYSTEM layer and move keys about over USB or Bluetooth, with nothing to install.</li>
-        <li><strong>Change anything in the keymap file.</strong> Layers, combos, macros and what the knobs do are plain text in one file. Push a change to your copy of the repository and GitHub builds the firmware.</li>
-        <li><strong>Load it by dragging a file.</strong> Press reset twice and the half shows up as a USB drive.</li>
-      </ul>
-    </div>
-    <div>
-      <h3>If you want a different board</h3>
-      <ul>
-        <li><strong>Every dimension has a name.</strong> Key spacing, column stagger, case clearances and wall thickness are constants at the top of the scripts.</li>
-        <li><strong>The checks run again.</strong> Design rules, the case's fit against the board and the firmware's pins are tested each time, so a change that breaks something says so.</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<section id="case" aria-labelledby="h-case">
-  <h2 id="h-case"><svg viewBox="0 0 30 15" aria-hidden="true"><use href="#bars"/></svg>The case</h2>
-  <div class="split">
-    <div class="prose">
-      <p>Each half sits in a tray, on seven posts, with the battery on the floor beneath it. A small cover plate goes over the electronics; the keys stay open. Each part is shaped from one side only, so the same files suit a printer and a three-axis mill.</p>
-      <table>
-        <thead><tr><th>Build</th><th>Tray</th><th>Cover</th></tr></thead>
-        <tbody>
-          <tr><td>Printed plastic</td><td>One piece</td><td rowspan="2">Windowed for the screen, or plain</td></tr>
-          <tr><td>Machined plastic</td><td>One piece</td></tr>
-          <tr><td>Machined or printed metal</td><td>Metal, with a plastic piece at the antenna corner</td><td>Always plastic</td></tr>
-        </tbody>
-      </table>
-      <p>Metal blocks radio, so the metal tray stops 10 mm short of the antenna and a plastic corner piece drops into the gap. A metal tray also needs its floor insulated, because the battery lies on it.</p>
-      <p>The three bars from the logo are cut into every cover, and “Lictor by Sporaktu” into the underside of every tray.</p>
-      <p class="small">A stand-in for the board comes with the files, so you can try the fit on your own printer before ordering a machined case.</p>
-    </div>
-    <div class="shots">
-      <figure class="paper"><img src="img/case-with-display.png"  alt="The left tray with the windowed cover" loading="lazy" width="1400" height="831"><figcaption>With the windowed cover</figcaption></figure>
-      <figure class="paper"><img src="img/case-plain.png"  alt="The left tray with the plain cover" loading="lazy" width="1400" height="831"><figcaption>With the plain cover</figcaption></figure>
-      <figure class="paper"><img src="img/case-metal-corner.png"  alt="The metal tray from behind with the plastic corner piece lifted out" loading="lazy" width="1400" height="921"><figcaption>The metal tray and its plastic corner</figcaption></figure>
-      <figure class="paper"><img src="img/case-from-below.png"  alt="The underside of the tray with the words Lictor by Sporaktu" loading="lazy" width="1400" height="1049"><figcaption>The underside</figcaption></figure>
-    </div>
+<section id="faq" class="faq" aria-labelledby="h-faq">
+  <h2 id="h-faq"><svg viewBox="0 0 30 15" aria-hidden="true"><use href="#bars"/></svg>Questions</h2>
+  <div class="answers">
+    <details><summary>Do I have to solder anything?</summary><p>No. Every electronic part is soldered by the board factory. Switches push into sockets and the case goes together with screws.</p></details>
+    <details><summary>Which switches and keycaps fit?</summary><p>Five-pin MX switches, and any MX keycap set: all forty keys are one unit.</p></details>
+    <details><summary>Which computers does it work with?</summary><p>It is a standard Bluetooth and USB keyboard, so Windows, macOS, Linux, iOS and Android all see it without drivers. The keymap has base layers for Mac as well.</p></details>
+    <details><summary>Can I change what the keys do?</summary><p>Yes. ZMK Studio changes keys from a browser while the keyboard is connected. Layers, combos, macros and the knobs are also plain text in one keymap file.</p></details>
+    <details><summary>Can I build one myself?</summary><p>Yes. The design is open for personal builds. <a href="build/">The build page</a> shows the board, the layout and every option.</p></details>
+    <details><summary>What will it cost, and when?</summary><p>Prices and dates will be announced when the campaign opens.</p></details>
   </div>
 </section>
 
@@ -255,11 +170,11 @@
 <footer>
   <div class="foot">
     <p class="by"><svg viewBox="0 0 30 15" aria-hidden="true"><use href="#bars"/></svg>Lictor by Sporaktu</p>
-    <p>The design is under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>. Build it for yourself, change it and share it, with credit and under the same licence. Selling kits or boards needs a commercial licence, for a small fee: <a href="https://github.com/sporaktu/Lictor-keyboard-marketing/issues">ask here</a>.</p>
-    <p>The key geometry was measured from the <a href="https://github.com/andrewjrae/rae-dux">rae-dux</a> by andrewjrae. The inner keys, five footprints and the switch, socket, light, USB and button models in the drawing come from the <a href="https://github.com/foostan/crkbd">Corne</a> by foostan (MIT). The small parts in the drawing are from the KiCad libraries (CC BY-SA 4.0). The firmware is <a href="https://zmk.dev">ZMK</a>. This page uses three.js (MIT) and the Archivo typeface (OFL). <a href="NOTICE.txt">Notices</a></p>
+    <p><a href="build/">Build it yourself</a></p>
+    <p>The design is under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>. This page uses three.js (MIT) and the Archivo typeface (OFL). <a href="NOTICE.txt">Notices</a></p>
   </div>
 </footer>
 
-<script type="module" src="main.js"></script>
+<script type="module" src="campaign.js"></script>
 </body>
 </html>
