@@ -24,11 +24,9 @@ const canvas = document.getElementById('view'), loading = document.querySelector
 const steps = document.querySelector('[data-steps]'), note = document.querySelector('[data-step-note]');
 const under = document.querySelector('[data-under]');
 
-// The layer light has eight colours: layers past the seventh all show white.
-const named = data.layers.map((l, i) => ({ i, name: l.name.replace(/_/g, ' '), light: l.light }));
-const COLOURS = { '': 'dark', '#0000ff': 'blue', '#00ff00': 'green', '#ff0000': 'red', '#00ffff': 'cyan', '#ff00ff': 'magenta', '#ffff00': 'yellow', '#ffffff': 'white' };
-named.forEach(l => {
-  const o = document.createElement('option'); o.value = l.i; o.textContent = `${l.name}: ${COLOURS[l.light] || l.light}`;
+// The layer light's colour for each layer, as the firmware's table has it.
+data.layers.forEach((l, i) => {
+  const o = document.createElement('option'); o.value = i; o.textContent = `${l.name.replace(/_/g, ' ')}: ${l.light_name}`;
   form.layer.append(o);
 });
 
