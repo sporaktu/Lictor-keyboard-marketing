@@ -1,0 +1,56 @@
+<svg viewBox="-93.36 -65.57 164.78 164.49" width="824" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica,Arial,sans-serif">
+<rect x="-93.36" y="-65.57" width="164.78" height="164.49" fill="#ffffff"/>
+<text x="-89.36" y="-57.57" font-size="5" font-weight="bold" fill="#111">Lictor over the KLOR (left half, index home keys aligned)</text>
+<rect x="-89.36" y="-54.07" width="4" height="4" rx=".8" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".5"/>
+<text x="-83.86" y="-50.57" font-size="3.4" fill="#333">finger keys</text>
+<rect x="-60.16" y="-54.07" width="4" height="4" rx=".8" fill="#8b5cf6" fill-opacity=".28" stroke="#8b5cf6" stroke-width=".5"/>
+<text x="-54.66" y="-50.57" font-size="3.4" fill="#333">thumb keys</text>
+<rect x="-32.66" y="-54.07" width="4" height="4" rx=".8" fill="#f59e0b" fill-opacity=".28" stroke="#f59e0b" stroke-width=".5"/>
+<text x="-27.16" y="-50.57" font-size="3.4" fill="#333">switch or rotary encoder</text>
+<rect x="-89.36" y="-47.57" width="4" height="4" rx=".8" fill="none" stroke="#dc2626" stroke-width=".5" stroke-dasharray="1.6 1.2"/>
+<text x="-83.86" y="-44.07" font-size="3.4" fill="#333">KLOR by GEIST</text>
+<g transform="translate(-66.55,12.13) rotate(-17.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-47.11,-13.29) rotate(-10.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-24.31,-23.52) rotate(-5.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(0.00,-19.05) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(20.05,-15.87) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-60.98,30.35) rotate(-17.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-43.80,5.47) rotate(-10.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-22.65,-4.54) rotate(-5.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(0.00,0.00) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(20.05,3.17) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-55.41,48.57) rotate(-17.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-40.50,24.24) rotate(-10.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-20.99,14.44) rotate(-5.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(0.00,19.05) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(20.05,22.22) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(10.11,49.00) rotate(15.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#8b5cf6" fill-opacity=".28" stroke="#8b5cf6" stroke-width=".6"/></g>
+<g transform="translate(29.86,57.17) rotate(30.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#8b5cf6" fill-opacity=".28" stroke="#8b5cf6" stroke-width=".6"/></g>
+<g transform="translate(46.81,70.19) rotate(45.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#8b5cf6" fill-opacity=".28" stroke="#8b5cf6" stroke-width=".6"/></g>
+<g transform="translate(39.10,3.17) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#f59e0b" fill-opacity=".28" stroke="#f59e0b" stroke-width=".6"/></g>
+<g transform="translate(39.10,22.22) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#f59e0b" fill-opacity=".28" stroke="#f59e0b" stroke-width=".6"/></g>
+<g transform="translate(-19.05,-28.07) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(0.00,-19.07) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-40.82,-17.65) rotate(-4.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(18.99,-16.07) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-19.05,-9.00) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-62.64,-3.15) rotate(-10.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(0.00,0.00) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-39.49,1.38) rotate(-4.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(18.99,3.00) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-19.05,10.07) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-78.93,14.01) rotate(-10.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-59.33,15.63) rotate(-10.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(0.00,19.07) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-38.16,20.40) rotate(-4.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(18.99,22.07) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-75.62,32.79) rotate(-10.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-56.02,34.41) rotate(-10.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-2.95,41.02) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(18.16,43.90) rotate(15.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(37.81,52.16) rotate(30.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(54.69,65.22) rotate(45.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<text x="-79.83" y="92.41" font-size="3.2" text-anchor="middle" fill="#333">19.05 mm</text>
+<line x1="-89.36" y1="93.91" x2="-70.31" y2="93.91" stroke="#333" stroke-width=".5"/>
+<text x="67.42" y="93.91" font-size="3.2" text-anchor="end" fill="#333">KLOR: github.com/GEIGEIGEIST/KLOR (GPL-3.0)</text>
+</svg>

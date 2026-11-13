@@ -1,0 +1,49 @@
+Lictor website: notices
+
+The Lictor's design, this page and the drawings made from the design are
+under CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/),
+except what is listed here, which keeps its own licence.
+
+models/*/parts.glb, lights.glb, switches.glb, switches-inner.glb, socket.glb
+  3D drawings of the parts on the boards, used only to draw the page.
+  - The hot-swap socket, key light, USB-C socket, reset button and MX switch
+    models are from the kbd library of the Corne keyboard,
+    https://github.com/foostan/crkbd, Copyright (c) 2020 foostan, MIT licence.
+  - The resistor, capacitor, diode, chip, crystal and pin-socket models are
+    from the KiCad libraries, https://gitlab.com/kicad/libraries/kicad-packages3D,
+    CC BY-SA 4.0 with the KiCad libraries' design exception.
+  - The radio module, battery socket and power switch are plain blocks of the
+    right size, written by this project.
+
+vendor/three/
+  three.js r160, https://threejs.org, Copyright (c) 2010-2023 three.js
+  authors, MIT licence. The text is in vendor/three/LICENSE.
+
+vendor/archivo/
+  The Archivo typeface, Copyright 2020 The Archivo Project Authors
+  (https://github.com/Omnibus-Type/Archivo), SIL Open Font License 1.1.
+  The text is in vendor/archivo/LICENSE.
+
+The MIT licence of the Corne models:
+
+MIT License
+
+Copyright (c) 2020 foostan
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

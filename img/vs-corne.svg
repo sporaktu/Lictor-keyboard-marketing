@@ -1,0 +1,58 @@
+<svg viewBox="-101.88 -61.77 178.10 160.68" width="891" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica,Arial,sans-serif">
+<rect x="-101.88" y="-61.77" width="178.10" height="160.68" fill="#ffffff"/>
+<text x="-97.88" y="-53.77" font-size="5" font-weight="bold" fill="#111">Lictor over the Corne v4.1 (left half, index home keys aligned)</text>
+<rect x="-97.88" y="-50.27" width="4" height="4" rx=".8" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".5"/>
+<text x="-92.38" y="-46.77" font-size="3.4" fill="#333">finger keys</text>
+<rect x="-68.68" y="-50.27" width="4" height="4" rx=".8" fill="#8b5cf6" fill-opacity=".28" stroke="#8b5cf6" stroke-width=".5"/>
+<text x="-63.18" y="-46.77" font-size="3.4" fill="#333">thumb keys</text>
+<rect x="-41.18" y="-50.27" width="4" height="4" rx=".8" fill="#f59e0b" fill-opacity=".28" stroke="#f59e0b" stroke-width=".5"/>
+<text x="-35.68" y="-46.77" font-size="3.4" fill="#333">switch or rotary encoder</text>
+<rect x="-97.88" y="-43.77" width="4" height="4" rx=".8" fill="none" stroke="#dc2626" stroke-width=".5" stroke-dasharray="1.6 1.2"/>
+<text x="-92.38" y="-40.27" font-size="3.4" fill="#333">Corne v4.1 by foostan</text>
+<g transform="translate(-66.55,12.13) rotate(-17.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-47.11,-13.29) rotate(-10.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-24.31,-23.52) rotate(-5.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(0.00,-19.05) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(20.05,-15.87) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-60.98,30.35) rotate(-17.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-43.80,5.47) rotate(-10.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-22.65,-4.54) rotate(-5.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(0.00,0.00) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(20.05,3.17) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-55.41,48.57) rotate(-17.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-40.50,24.24) rotate(-10.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-20.99,14.44) rotate(-5.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(0.00,19.05) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(20.05,22.22) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(10.11,49.00) rotate(15.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#8b5cf6" fill-opacity=".28" stroke="#8b5cf6" stroke-width=".6"/></g>
+<g transform="translate(29.86,57.17) rotate(30.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#8b5cf6" fill-opacity=".28" stroke="#8b5cf6" stroke-width=".6"/></g>
+<g transform="translate(46.81,70.19) rotate(45.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#8b5cf6" fill-opacity=".28" stroke="#8b5cf6" stroke-width=".6"/></g>
+<g transform="translate(39.10,3.17) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#f59e0b" fill-opacity=".28" stroke="#f59e0b" stroke-width=".6"/></g>
+<g transform="translate(39.10,22.22) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#f59e0b" fill-opacity=".28" stroke="#f59e0b" stroke-width=".6"/></g>
+<g transform="translate(-19.05,-21.43) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-38.10,-19.05) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(0.00,-19.05) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(19.05,-16.67) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-76.20,-14.29) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-57.15,-14.29) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(38.10,-7.14) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-19.05,-2.38) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-38.10,0.00) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(0.00,0.00) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(19.05,2.38) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-76.20,4.76) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-57.15,4.76) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(38.10,11.91) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-19.05,16.67) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-38.10,19.05) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(0.00,19.05) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(19.05,21.43) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-76.20,23.81) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-57.15,23.81) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-9.53,40.48) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(11.29,42.66) rotate(11.94)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(33.13,44.74) rotate(23.88)"><rect class="board-key" x="-9.00" y="-13.76" width="18.00" height="27.52" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<text x="-88.35" y="92.41" font-size="3.2" text-anchor="middle" fill="#333">19.05 mm</text>
+<line x1="-97.88" y1="93.91" x2="-78.83" y2="93.91" stroke="#333" stroke-width=".5"/>
+<text x="72.22" y="93.91" font-size="3.2" text-anchor="end" fill="#333">Corne v4.1: github.com/foostan/crkbd (MIT and CC BY 4.0)</text>
+</svg>

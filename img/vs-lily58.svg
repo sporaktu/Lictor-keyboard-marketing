@@ -1,0 +1,64 @@
+<svg viewBox="-101.90 -76.99 178.10 175.90" width="891" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica,Arial,sans-serif">
+<rect x="-101.90" y="-76.99" width="178.10" height="175.90" fill="#ffffff"/>
+<text x="-97.90" y="-68.99" font-size="5" font-weight="bold" fill="#111">Lictor over the Lily58 Pro (left half, index home keys aligned)</text>
+<rect x="-97.90" y="-65.49" width="4" height="4" rx=".8" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".5"/>
+<text x="-92.40" y="-61.99" font-size="3.4" fill="#333">finger keys</text>
+<rect x="-68.70" y="-65.49" width="4" height="4" rx=".8" fill="#8b5cf6" fill-opacity=".28" stroke="#8b5cf6" stroke-width=".5"/>
+<text x="-63.20" y="-61.99" font-size="3.4" fill="#333">thumb keys</text>
+<rect x="-41.20" y="-65.49" width="4" height="4" rx=".8" fill="#f59e0b" fill-opacity=".28" stroke="#f59e0b" stroke-width=".5"/>
+<text x="-35.70" y="-61.99" font-size="3.4" fill="#333">switch or rotary encoder</text>
+<rect x="-97.90" y="-58.99" width="4" height="4" rx=".8" fill="none" stroke="#dc2626" stroke-width=".5" stroke-dasharray="1.6 1.2"/>
+<text x="-92.40" y="-55.49" font-size="3.4" fill="#333">Lily58 Pro by Naoki Katahira</text>
+<g transform="translate(-66.55,12.13) rotate(-17.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-47.11,-13.29) rotate(-10.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-24.31,-23.52) rotate(-5.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(0.00,-19.05) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(20.05,-15.87) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-60.98,30.35) rotate(-17.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-43.80,5.47) rotate(-10.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-22.65,-4.54) rotate(-5.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(0.00,0.00) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(20.05,3.17) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-55.41,48.57) rotate(-17.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-40.50,24.24) rotate(-10.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-20.99,14.44) rotate(-5.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(0.00,19.05) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(20.05,22.22) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(10.11,49.00) rotate(15.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#8b5cf6" fill-opacity=".28" stroke="#8b5cf6" stroke-width=".6"/></g>
+<g transform="translate(29.86,57.17) rotate(30.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#8b5cf6" fill-opacity=".28" stroke="#8b5cf6" stroke-width=".6"/></g>
+<g transform="translate(46.81,70.19) rotate(45.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#8b5cf6" fill-opacity=".28" stroke="#8b5cf6" stroke-width=".6"/></g>
+<g transform="translate(39.10,3.17) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#f59e0b" fill-opacity=".28" stroke="#f59e0b" stroke-width=".6"/></g>
+<g transform="translate(39.10,22.22) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#f59e0b" fill-opacity=".28" stroke="#f59e0b" stroke-width=".6"/></g>
+<g transform="translate(-19.10,-39.49) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-38.10,-38.10) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(0.00,-38.10) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(19.00,-35.70) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-57.20,-33.30) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-76.20,-31.80) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-19.10,-20.40) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-38.10,-19.10) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(0.00,-19.00) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(19.00,-16.60) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-57.20,-14.40) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-76.20,-12.90) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-19.10,-1.30) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-38.10,0.00) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(0.00,0.00) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(19.00,2.40) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-57.20,4.80) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-76.20,6.30) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(38.10,11.80) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-19.10,17.70) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-38.10,19.10) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(0.00,19.10) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(19.00,21.40) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-57.20,23.80) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-76.25,25.30) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-28.60,38.05) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-9.50,38.05) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(9.50,40.30) rotate(0.00)"><rect class="board-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(34.50,41.30) rotate(30.00)"><rect class="board-key" x="-9.00" y="-13.76" width="18.00" height="27.52" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<text x="-88.38" y="92.41" font-size="3.2" text-anchor="middle" fill="#333">19.05 mm</text>
+<line x1="-97.90" y1="93.91" x2="-78.85" y2="93.91" stroke="#333" stroke-width=".5"/>
+<text x="72.20" y="93.91" font-size="3.2" text-anchor="end" fill="#333">Lily58 Pro: github.com/kata0510/Lily58 (MIT)</text>
+</svg>

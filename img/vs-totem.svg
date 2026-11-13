@@ -1,0 +1,54 @@
+<svg viewBox="-93.54 -62.19 164.60 161.10" width="823" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica,Arial,sans-serif">
+<rect x="-93.54" y="-62.19" width="164.60" height="161.10" fill="#ffffff"/>
+<text x="-89.54" y="-54.19" font-size="5" font-weight="bold" fill="#111">Lictor over the Totem (left half, index home keys aligned)</text>
+<rect x="-89.54" y="-50.69" width="4" height="4" rx=".8" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".5"/>
+<text x="-84.04" y="-47.19" font-size="3.4" fill="#333">finger keys</text>
+<rect x="-60.34" y="-50.69" width="4" height="4" rx=".8" fill="#8b5cf6" fill-opacity=".28" stroke="#8b5cf6" stroke-width=".5"/>
+<text x="-54.84" y="-47.19" font-size="3.4" fill="#333">thumb keys</text>
+<rect x="-32.84" y="-50.69" width="4" height="4" rx=".8" fill="#f59e0b" fill-opacity=".28" stroke="#f59e0b" stroke-width=".5"/>
+<text x="-27.34" y="-47.19" font-size="3.4" fill="#333">switch or rotary encoder</text>
+<rect x="-89.54" y="-44.19" width="4" height="4" rx=".8" fill="none" stroke="#dc2626" stroke-width=".5" stroke-dasharray="1.6 1.2"/>
+<text x="-84.04" y="-40.69" font-size="3.4" fill="#333">Totem by GEIST</text>
+<g transform="translate(-66.55,12.13) rotate(-17.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-47.11,-13.29) rotate(-10.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-24.31,-23.52) rotate(-5.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(0.00,-19.05) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(20.05,-15.87) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-60.98,30.35) rotate(-17.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-43.80,5.47) rotate(-10.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-22.65,-4.54) rotate(-5.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(0.00,0.00) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(20.05,3.17) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-55.41,48.57) rotate(-17.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-40.50,24.24) rotate(-10.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-20.99,14.44) rotate(-5.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(0.00,19.05) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(20.05,22.22) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(10.11,49.00) rotate(15.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#8b5cf6" fill-opacity=".28" stroke="#8b5cf6" stroke-width=".6"/></g>
+<g transform="translate(29.86,57.17) rotate(30.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#8b5cf6" fill-opacity=".28" stroke="#8b5cf6" stroke-width=".6"/></g>
+<g transform="translate(46.81,70.19) rotate(45.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#8b5cf6" fill-opacity=".28" stroke="#8b5cf6" stroke-width=".6"/></g>
+<g transform="translate(39.10,3.17) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#f59e0b" fill-opacity=".28" stroke="#f59e0b" stroke-width=".6"/></g>
+<g transform="translate(39.10,22.22) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#f59e0b" fill-opacity=".28" stroke="#f59e0b" stroke-width=".6"/></g>
+<g transform="translate(-18.00,-25.44) rotate(0.00)"><rect class="board-key" x="-8.75" y="-8.25" width="17.50" height="16.50" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(0.00,-17.00) rotate(0.00)"><rect class="board-key" x="-8.75" y="-8.25" width="17.50" height="16.50" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-38.60,-15.16) rotate(-4.00)"><rect class="board-key" x="-8.75" y="-8.25" width="17.50" height="16.50" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(18.00,-14.28) rotate(0.00)"><rect class="board-key" x="-8.75" y="-8.25" width="17.50" height="16.50" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-18.00,-8.44) rotate(0.00)"><rect class="board-key" x="-8.75" y="-8.25" width="17.50" height="16.50" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(0.00,0.00) rotate(0.00)"><rect class="board-key" x="-8.75" y="-8.25" width="17.50" height="16.50" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-58.78,0.39) rotate(-10.00)"><rect class="board-key" x="-8.75" y="-8.25" width="17.50" height="16.50" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-37.41,1.80) rotate(-4.00)"><rect class="board-key" x="-8.75" y="-8.25" width="17.50" height="16.50" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(18.00,2.72) rotate(0.00)"><rect class="board-key" x="-8.75" y="-8.25" width="17.50" height="16.50" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-18.00,8.56) rotate(0.00)"><rect class="board-key" x="-8.75" y="-8.25" width="17.50" height="16.50" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(0.00,17.00) rotate(0.00)"><rect class="board-key" x="-8.75" y="-8.25" width="17.50" height="16.50" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-55.83,17.14) rotate(-10.00)"><rect class="board-key" x="-8.75" y="-8.25" width="17.50" height="16.50" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-36.23,18.76) rotate(-4.00)"><rect class="board-key" x="-8.75" y="-8.25" width="17.50" height="16.50" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(18.00,19.72) rotate(0.00)"><rect class="board-key" x="-8.75" y="-8.25" width="17.50" height="16.50" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-71.98,29.48) rotate(-10.00)"><rect class="board-key" x="-8.75" y="-8.25" width="17.50" height="16.50" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-52.88,33.88) rotate(-10.00)"><rect class="board-key" x="-8.75" y="-8.25" width="17.50" height="16.50" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(-5.03,37.71) rotate(0.00)"><rect class="board-key" x="-8.75" y="-8.25" width="17.50" height="16.50" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(14.90,40.48) rotate(15.00)"><rect class="board-key" x="-8.75" y="-8.25" width="17.50" height="16.50" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<g transform="translate(33.35,48.16) rotate(30.00)"><rect class="board-key" x="-8.75" y="-8.25" width="17.50" height="16.50" rx="2.2" fill="none" stroke="#dc2626" stroke-width=".55" stroke-dasharray="1.6 1.2"/></g>
+<text x="-80.02" y="92.41" font-size="3.2" text-anchor="middle" fill="#333">19.05 mm</text>
+<line x1="-89.54" y1="93.91" x2="-70.49" y2="93.91" stroke="#333" stroke-width=".5"/>
+<text x="67.06" y="93.91" font-size="3.2" text-anchor="end" fill="#333">Totem: github.com/GEIGEIGEIST/TOTEM (CERN-OHL-P-2.0)</text>
+</svg>

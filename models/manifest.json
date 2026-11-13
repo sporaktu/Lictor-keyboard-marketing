@@ -1,0 +1,21 @@
+{
+ "made_from": {
+  "hw/kicad/left/lictor-left.kicad_pcb": "483ec30bd5455d79cf27d571d9532ae60dedca69097c05c1a947ed8b0756527c",
+  "hw/kicad/right/lictor-right.kicad_pcb": "94c1af82e6f6c60ccc299fe8d3dac1297efabf2b4c115c6eee466f504c197397",
+  "case/out/left/tray.stl": "977083e8f379bdc2492b7f3ccc233e70186abba1d05fbc03e066f7fab05c7ed1",
+  "case/out/left/tray-metal.stl": "b2b84d9b9763f5f77a4964ec188cd811f53db695d089e0c21bbc294e0b3e56de",
+  "case/out/left/antenna-corner.stl": "241997091af4ee33b9761e91637f11eafdd1f5f4e2ccef72055a62e0c682ec07",
+  "case/out/left/cover-display.stl": "c56d76b0e722a906acb1727b2aaef934cfda1cb1ae99362ddb8e6eb3d514ad9c",
+  "case/out/left/cover-plain.stl": "87ece403e5539e3ab23622b13ab20f4deed4acff047bcad0ba467965e6bb04c6",
+  "case/out/right/tray.stl": "6cc5157f2485c313a752e05a30136a8555ab0d73a380ea5c80e480e36a691d06",
+  "case/out/right/tray-metal.stl": "e6c1762e2783a9210ca5ec21337e20138442d437125e704b4be28610b0a30734",
+  "case/out/right/antenna-corner.stl": "87bcac45559daa4d60bbe8fc02ea980f4c570eb938b7dd9093fa088bf591d738",
+  "case/out/right/cover-display.stl": "6f3fee5b328bf983f957bcf4167af1847a819b7fe8956c2b1725c3cefc278bd1",
+  "case/out/right/cover-plain.stl": "fe981ed97e14ed84944e053b6a483b558080c32f45955ca3a8c3a52f379eef25",
+  "hw/models/kbd/CherryMX Switch.step": "f0611f344b3b269f6380922a31c8639015a85ea51028b0e2588951c493df644c",
+  "hw/models/kbd/TS-1088R-02026.step": "0e5353f13136a2d26a9251969519ff081162bb9a676c7ac50a67905c14ca0fd5",
+  "hw/models/kbd/TYPE-C-31-M-13C.step": "cde7f64568453c4857315b6f863b1da17d582d5fe8a7973261914b36682a2104",
+  "hw/models/kbd/YS-SK6812MINI-E.step": "cb1aea90f3a6d121f65f6b20dcadf2a45fb4f73e27ae44f43d569023311f60ee",
+  "hw/models/kbd/kailh_hotswap_socket.step": "cc7b15036befb3a10fdb5be44d3399d02dd893a7b44c17d355a1047ea495756a"
+ }
+}

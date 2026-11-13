@@ -1,0 +1,52 @@
+<svg viewBox="-156.33 -55.27 312.65 154.18" width="1563" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica,Arial,sans-serif">
+<rect x="-156.33" y="-55.27" width="312.65" height="154.18" fill="#ffffff"/>
+<text x="-152.33" y="-47.27" font-size="5" font-weight="bold" fill="#111">Lictor: 40 keys, MX, wireless</text>
+<rect x="-152.33" y="-43.77" width="4" height="4" rx=".8" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".5"/>
+<text x="-146.83" y="-40.27" font-size="3.4" fill="#333">finger keys</text>
+<rect x="-123.13" y="-43.77" width="4" height="4" rx=".8" fill="#8b5cf6" fill-opacity=".28" stroke="#8b5cf6" stroke-width=".5"/>
+<text x="-117.63" y="-40.27" font-size="3.4" fill="#333">thumb keys</text>
+<rect x="-95.63" y="-43.77" width="4" height="4" rx=".8" fill="#f59e0b" fill-opacity=".28" stroke="#f59e0b" stroke-width=".5"/>
+<text x="-90.13" y="-40.27" font-size="3.4" fill="#333">switch or rotary encoder</text>
+<g transform="translate(-141.09,12.13) rotate(-17.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-121.66,-13.29) rotate(-10.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-98.86,-23.52) rotate(-5.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-74.54,-19.05) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-54.49,-15.87) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-135.52,30.35) rotate(-17.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-118.35,5.47) rotate(-10.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-97.20,-4.54) rotate(-5.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-74.54,0.00) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-54.49,3.17) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-129.95,48.57) rotate(-17.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-115.04,24.24) rotate(-10.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-95.53,14.44) rotate(-5.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-74.54,19.05) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-54.49,22.22) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(-64.43,49.00) rotate(15.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#8b5cf6" fill-opacity=".28" stroke="#8b5cf6" stroke-width=".6"/></g>
+<g transform="translate(-44.68,57.17) rotate(30.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#8b5cf6" fill-opacity=".28" stroke="#8b5cf6" stroke-width=".6"/></g>
+<g transform="translate(-27.73,70.19) rotate(45.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#8b5cf6" fill-opacity=".28" stroke="#8b5cf6" stroke-width=".6"/></g>
+<g transform="translate(-35.44,3.17) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#f59e0b" fill-opacity=".28" stroke="#f59e0b" stroke-width=".6"/></g>
+<g transform="translate(-35.44,22.22) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#f59e0b" fill-opacity=".28" stroke="#f59e0b" stroke-width=".6"/></g>
+<g transform="translate(141.09,12.13) rotate(17.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(121.66,-13.29) rotate(10.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(98.86,-23.52) rotate(5.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(74.54,-19.05) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(54.49,-15.87) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(135.52,30.35) rotate(17.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(118.35,5.47) rotate(10.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(97.20,-4.54) rotate(5.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(74.54,0.00) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(54.49,3.17) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(129.95,48.57) rotate(17.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(115.04,24.24) rotate(10.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(95.53,14.44) rotate(5.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(74.54,19.05) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(54.49,22.22) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#3b82f6" fill-opacity=".28" stroke="#3b82f6" stroke-width=".6"/></g>
+<g transform="translate(64.43,49.00) rotate(-15.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#8b5cf6" fill-opacity=".28" stroke="#8b5cf6" stroke-width=".6"/></g>
+<g transform="translate(44.68,57.17) rotate(-30.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#8b5cf6" fill-opacity=".28" stroke="#8b5cf6" stroke-width=".6"/></g>
+<g transform="translate(27.73,70.19) rotate(-45.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#8b5cf6" fill-opacity=".28" stroke="#8b5cf6" stroke-width=".6"/></g>
+<g transform="translate(35.44,3.17) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#f59e0b" fill-opacity=".28" stroke="#f59e0b" stroke-width=".6"/></g>
+<g transform="translate(35.44,22.22) rotate(0.00)"><rect class="lictor-key" x="-9.00" y="-9.00" width="18.00" height="18.00" rx="2.2" fill="#f59e0b" fill-opacity=".28" stroke="#f59e0b" stroke-width=".6"/></g>
+<text x="-142.80" y="92.41" font-size="3.2" text-anchor="middle" fill="#333">19.05 mm</text>
+<line x1="-152.33" y1="93.91" x2="-133.28" y2="93.91" stroke="#333" stroke-width=".5"/>
+</svg>
