@@ -25,6 +25,8 @@
   </a>
   <nav aria-label="Sections">
     <a href="#story">The keyboard</a>
+    <a href="#typing">How it types</a>
+    <a href="#layers">Layers</a>
     <a href="#rewards">Rewards</a>
     <a href="#specs">Specs</a>
     <a href="#faq">Questions</a>
@@ -119,11 +121,73 @@
   </div>
 </section>
 
+<section id="typing" class="typing" aria-labelledby="h-typing">
+  <h2 id="h-typing"><svg viewBox="0 0 30 15" aria-hidden="true"><use href="#bars"/></svg>Forty keys, nothing missing</h2>
+  <div class="prose wide intro">
+    <p>If you have only typed on an ordinary keyboard, the Lictor looks as if half of it is gone. It is all still there: the numbers, the arrows, the F-keys and every symbol are folded in under your fingers, and you reach them without moving your hands. This is how.</p>
+  </div>
+  <ol class="primer">
+    <li>
+      <h3>One half for each hand</h3>
+      <p>Put the halves where your hands fall, about shoulder-width apart. Your wrists stay straight instead of bending in towards one small keyboard, and there is no cable between the halves to get in the way.</p>
+    </li>
+    <li>
+      <h3>Your fingers stay home</h3>
+      <p>Each finger has its own column of three keys and never reaches more than one key from where it rests. The columns are stepped because fingers are different lengths: each key sits where its finger lands.</p>
+    </li>
+    <li>
+      <h3>Thumbs do more than space</h3>
+      <p>An ordinary keyboard gives both thumbs one space bar. Here each thumb has three keys of its own: one is space, and the others change what the rest of the keys do.</p>
+    </li>
+    <li>
+      <h3>Layers work like Shift</h3>
+      <p>You already use one layer: hold Shift and <kbd>a</kbd> becomes <kbd>A</kbd>. Hold the right thumb's NUMBER key and the keys under your right hand become a number pad. Let go and they are letters again. The keyboard has fifteen of these layers.</p>
+    </li>
+    <li>
+      <h3>Shift and Ctrl wait for you</h3>
+      <p>Shift, Ctrl, Alt and the Windows or Command key sit on the home row of a layer. Tap one and it stays down for the next key you press, so Ctrl+C is two taps in a row rather than a stretch across the keyboard.</p>
+    </li>
+    <li>
+      <h3>Two keys together make a third</h3>
+      <p>Press some keys at the same moment, a combo, and you get one more. Wherever you are, the two inner thumb keys pressed together bring you back to the letters.</p>
+    </li>
+  </ol>
+  <p class="settle"><strong>Give it a week or two.</strong> Most people type slowly for the first days and are back to speed soon after. The light on the left half and its screen show which layer you are on, and anything that does not suit you can be moved from a browser.</p>
+</section>
+
+<section id="layers" class="map" aria-labelledby="h-layers">
+  <h2 id="h-layers"><svg viewBox="0 0 30 15" aria-hidden="true"><use href="#bars"/></svg>Try the layers</h2>
+  <div class="prose wide">
+    <p>This is the keymap every Lictor comes with. Pick something to type and the map shows which keys to hold and which to press. Or pick a layer by name, and press a gold key on the map to follow it.</p>
+  </div>
+  <div class="guide" data-guide>
+    <div class="tasks" data-tasks role="group" aria-label="Something to type"></div>
+    <ol class="moves" data-moves aria-live="polite"></ol>
+  </div>
+  <div class="layers" data-layers>
+    <div class="tabs" data-tabs role="tablist" aria-label="Layer"></div>
+    <div class="board">
+      <svg role="img" aria-label="The keys on the chosen layer"></svg>
+      <p class="hint" data-hint aria-live="polite"></p>
+    </div>
+    <div class="layer-notes">
+      <p class="about" data-about></p>
+      <p class="reach" data-route></p>
+      <dl>
+        <dt>The knobs turn</dt><dd data-knob></dd>
+        <dt>Keys pressed together</dt><dd><ul class="combos" data-combos></ul></dd>
+      </dl>
+      <ul class="key-legend" data-key-legend aria-label="What the colours mean"></ul>
+      <p class="small">The dot beside each layer's name is the colour the light on the left half shows on that layer.</p>
+    </div>
+  </div>
+</section>
+
 <section id="uses" class="uses" aria-labelledby="h-uses">
   <h2 id="h-uses"><svg viewBox="0 0 30 15" aria-hidden="true"><use href="#bars"/></svg>Yours to change</h2>
   <div class="facts">
     <div><h3>Move keys from a browser</h3><p>The firmware is ZMK with ZMK Studio built in. Unlock the keyboard and rearrange it over USB or Bluetooth, with nothing to install.</p></div>
-    <div><h3>Fifteen layers to start from</h3><p>Letters, navigation, numbers, symbols, function keys, three gaming layers and Mac versions of the base layers. <a href="build/#layers">Try every layer</a>.</p></div>
+    <div><h3>Fifteen layers to start from</h3><p>Letters, navigation, numbers, symbols, function keys, three gaming layers and Mac versions of the base layers. <a href="#layers">Try every layer</a>.</p></div>
     <div><h3>Five devices</h3><p>Pair five computers, tablets or phones and switch between them from the keyboard. Plug in USB-C and it types over the cable.</p></div>
     <div><h3>Open to builders</h3><p>The design is open for anyone who would sooner make their own. <a href="build/">See how a Lictor is built</a>.</p></div>
   </div>

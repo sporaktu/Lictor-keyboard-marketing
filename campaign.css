@@ -57,6 +57,40 @@
 .beats h3 { font-size: clamp(1.5rem, 2.6vw, 2.1rem); font-weight: 800; font-stretch: 125%; letter-spacing: -0.015em; line-height: 1.05; margin-bottom: 0.5rem; }
 .beats p { margin: 0; font-size: 1.125rem; max-width: 26rem; }
 
+/* ------------------------------------------------------------ how it types */
+.typing .intro p { font-size: clamp(1.125rem, 1.6vw, 1.3rem); color: #e9ebec; max-width: 44rem; }
+.primer { list-style: none; counter-reset: primer; margin: 2rem 0 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2.2rem clamp(1.2rem, 2.5vw, 2.5rem); }
+.primer li { counter-increment: primer; border-top: 2px solid var(--gold-bright); padding-top: 0.8rem; }
+.primer li::before { content: counter(primer); display: block; font-size: 2.2rem; font-weight: 850; font-stretch: 125%; line-height: 1; color: var(--gold-bright); margin-bottom: 0.4rem; }
+.primer h3 { color: #fff; font-size: 1.3rem; }
+.primer p { margin: 0; color: #c9cdd0; }
+.primer kbd { color: var(--ink); }
+.settle { max-width: 44rem; margin: 2.5rem 0 0; padding: 1rem 1.2rem; background: #131517; border-left: 4px solid var(--gold-bright); color: #c9cdd0; }
+.settle strong { color: #fff; }
+
+/* ------------------------------------------------------------ the layer map */
+.campaign #layers { background: var(--slate); color: var(--ink); }
+.map h2 svg { color: var(--gold); }
+.campaign .map a:hover { color: var(--gold); }
+.campaign .map .small { color: var(--mute); }
+.guide { display: grid; grid-template-columns: minmax(0, 1fr) 19rem; gap: 1rem clamp(1.5rem, 3vw, 3rem); margin-bottom: 1.6rem; align-items: start; }
+.tasks { display: flex; flex-wrap: wrap; gap: 0.45rem; }
+.tasks button {
+  cursor: pointer; padding: 0.5rem 0.85rem; background: var(--paper); color: var(--ink);
+  border: 0; border-bottom: 3px solid var(--slate-deep); font: inherit; font-weight: 650; font-stretch: 100%;
+}
+.tasks button:hover { border-bottom-color: var(--gold); }
+.tasks button[aria-pressed="true"] { background: var(--board); color: var(--gold-bright); border-bottom-color: var(--gold-bright); }
+.moves { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.8rem; font-size: 0.9375rem; }
+.moves:empty::before { content: "Pick something to type, and the steps appear here."; color: var(--mute); }
+.moves > li { border-left: 3px solid var(--slate-deep); padding-left: 0.8rem; }
+.moves > li.now { border-left-color: var(--gold); }
+.moves > li > button { cursor: pointer; background: none; border: 0; padding: 0; font: inherit; font-weight: 750; font-stretch: 112%; color: var(--ink); text-decoration: underline; text-decoration-color: var(--gold); text-underline-offset: 0.2em; }
+.moves .task-name { margin: 0; font-weight: 750; font-stretch: 112%; }
+.moves ol { margin: 0.3rem 0 0; padding-left: 1.2rem; }
+.moves ol li { margin-bottom: 0.2rem; }
+.moves ol li::marker { color: var(--gold); font-weight: 700; }
+
 /* ------------------------------------------------------------ uses */
 .uses .facts > div { border-top-color: var(--gold-bright); }
 .uses h3 { color: #fff; }
@@ -91,6 +125,13 @@
 .campaign footer { border-top: 1px solid #25282b; }
 
 /* ------------------------------------------------------------ narrower screens */
+@media (max-width: 68rem) {
+  .primer { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .guide { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 36rem) {
+  .primer { grid-template-columns: minmax(0, 1fr); }
+}
 @media (max-width: 56rem) {
   .pitch-words { grid-template-columns: minmax(0, 1fr); }
   .campaign h1 { margin-bottom: 1.2rem; }
